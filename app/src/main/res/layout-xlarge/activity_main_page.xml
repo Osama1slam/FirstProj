@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainpage"
+    tools:context="com.osamaislam.auxiliarit.MainPage"
+    android:background="#000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/banner"
+                    android:scaleType="fitXY"
+                     />
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Latest News"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:textSize="30sp"
+                    android:background="@drawable/bg_button"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/b1"
+                    android:onClick="News"
+                    android:clickable="true"/>
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Timetable"
+                    android:background="@drawable/bg_button"
+                    android:paddingTop="20dp"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="timeTable"
+                    android:id="@+id/b2" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lecturers"
+                    android:background="@drawable/bg_button"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="lects"
+                    android:id="@+id/b3" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subjects"
+                    android:background="@drawable/bg_button"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="subs"
+                    android:id="@+id/textView75" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_button"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:text="Where is ..?"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="Navigation"
+                    android:id="@+id/b7" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_button"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:text="Bus info"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="busInfo"
+                    android:id="@+id/b6" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_button"
+                    android:text="Assignments"
+                    android:paddingTop="20dp"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="settings"
+                    android:id="@+id/b5" />
+
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_button"
+                    android:text="About the author"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="about"
+                    android:id="@+id/b4" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

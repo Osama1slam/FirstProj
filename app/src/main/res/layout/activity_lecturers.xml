@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.osamaislam.auxiliarit.Lecturers"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="#000">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Mr. Mahdi"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="mProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Mr. Matthew"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="mattProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Mr. Vinod"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="vProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Mr. Wael"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:onClick="waelProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Mr. Mutaz"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="muProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Dr. Marwan"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="marwanProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Mr. Tony"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="tonyProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Mr. Kelvin"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="kelvinProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Mr. Hemant"
+        android:textSize="40sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="hemantProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Ms. Izan"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:onClick="izanProfile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Ms. Norhayati"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:onClick="hayatiProfile" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Ms. Noris"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:onClick="norisProfile" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Ms. Huda"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:onClick="hudaProfile" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#222"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Ms. Shaliken"
+            android:textSize="40sp"
+            android:layout_marginBottom="20dp"
+            android:onClick="shaProfile" />
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</LinearLayout>

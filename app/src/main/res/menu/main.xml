@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+
+
+    <item android:id="@+id/report"
+        android:title="Report Bug"
+        android:showAsAction="ifRoom"
+        android:onClick="reportIT"
+        />
+
+
+
+    <item android:id="@+id/about"
+        android:title="About AuxiliarIT"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:showAsAction="never"
+        android:onClick="about"
+        />
+
+    <item android:id="@+id/share"
+        android:title="Share the App"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="never"
+        android:onClick="shareIT"
+        />
+
+</menu>

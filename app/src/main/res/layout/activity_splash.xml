@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.osamaislam.auxiliarit.Splash"
+    android:paddingTop="30dp"
+    >
+
+
+   <ImageView
+       android:layout_width="120dp"
+       android:layout_height="120dp"
+       android:background="#0000"
+       android:layout_centerHorizontal="true"
+       android:src="@drawable/logo2"
+       android:id="@+id/logo"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/title"
+        android:layout_below="@+id/logo"
+        android:background="#0000"
+        android:id="@+id/title"
+        android:layout_marginTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/limkokwingfict"
+        android:layout_below="@+id/title"
+        android:background="#0000"
+        android:id="@+id/uni"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="40dp"
+        />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quote02"
+        android:background="#0000"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/uni"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#0000"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/osama"
+        android:id="@+id/osama"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/osama"
+        android:background="#0000"
+        android:indeterminate="true"
+        />
+
+
+</RelativeLayout>

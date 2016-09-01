@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.osamaislam.auxiliarit">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Timetable"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Timetable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lecturers"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Lecturers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.mahdiPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Mr. Mahdi Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.vinodPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Mr. Vindo Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.matthewPage"
+            android:configChanges="orientation"
+            android:label="Mr. Matthew Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.mutazPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Mr. Mutaz Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.marwanPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Dr. Marwan Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.tonyPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Mr. Tony Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.kelvinPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Mr. Kelvin Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.hemantPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Mr. Hemant Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.izanPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Ms. Izan Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".News"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Latest News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bus"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Bus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Assignments"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Assignments"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutMe"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="About Osama Islam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.norhayatiPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Ms. Norhayati Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.norisPage"
+            android:configChanges="orientation"
+            android:label="Ms. Noris Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.hudaPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Ms. Huda Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lecturers_pages.shalikenPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Ms. Shaliken Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubjectsPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Subjects"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lecturers_pages.waelPage"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Mr. Wael Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutApp"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="About" />
+        <activity
+            android:name=".Navigation"
+            android:configChanges="orientation"
+            android:icon="@mipmap/ic_lactionbar"
+            android:label="Navigate"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

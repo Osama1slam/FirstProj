@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AuxiliarIT</string>
+    <string name="version">Version 1.9</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string-array name="places">
+        <item>Domain</item>
+        <item>Arc</item>
+        <item>Cyberia A-B</item>
+        <item>Cyberia C</item>
+        <item>Crescent</item>
+        <item>Dpulze</item>
+    </string-array>
+
+
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+
+    <string name="aboutApp">AixiliarIT is an app created by Limkokwing FICT student as a proof of concept.
+        It is dedicated for Limkokwing FICT students only and the goal of this app is to facilitate their semester.\n\n
+
+<i>*On first use, you are urged to add the subject you are having before using other features.</i>\n\n
+
+<b>Features:</b>\n\n
+
+- Latest news from Limkokwing.\n\n
+
+- Adding and removing subjects (up-to 10).\n\n
+
+- Creating your own TimeTable.\n\n
+
+- Lecturers information that you need.\n\n
+
+- Search for your class or University\'s departments.\n\n
+
+- Information about the bus and where to wait for it (If you\'re new).\n\n
+
+- Organizing the Assignments.</string>
+
+
+    <string name="busInfo">Note: if you want to travel from Limkokwing to any other place, the bus named T520 come - Monday to Friday - every 40 minutes and in weekends come every 1 hour until 11 pm</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
